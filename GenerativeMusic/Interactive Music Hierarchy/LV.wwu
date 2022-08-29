@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B6CD155-E161-420D-86DA-4A0C69CD5A68}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="LV" ID="{5B6CD155-E161-420D-86DA-4A0C69CD5A68}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Kalimba(not_ready)" ID="{79C8AF09-100E-419F-8F84-CE9E4ACE98BD}" ShortID="170630449">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="2638.51351351351"/>
+						<Property Name="Tempo" Type="Real64" Value="80"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="sitar_phrases" ID="{A21B9535-DD83-4488-9C42-4F27F042463E}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="midi-gba" ID="{DBB4381A-B4F6-4D04-97F5-8001C22FCB03}" ShortID="932060783">
+							<ReferenceList>
+								<Reference Name="MidiTarget">
+									<ObjectRef Name="sitar_a1" ID="{72AB3800-95D9-4CE5-B287-46E6C7F929D1}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MidiFileSource Name="midi-gba" ID="{E83A64F4-961C-428E-A125-0B9734BF418A}" ShortID="295663821">
+									<Language>SFX</Language>
+									<MidiFile>midi-gba.mid</MidiFile>
+									<MediaIDList>
+										<MediaID ID="295663821"/>
+									</MediaIDList>
+								</MidiFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{338E1A7E-54C4-4B7F-BA3B-7B1E3F2A839E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{CABAD54F-1D5C-483E-B027-BF01478C9D81}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClipMidi Name="midi-gba" ID="{C9444257-F34C-484D-892B-BE2C3E1608E0}">
+																	<PropertyList>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="1837.83783783784"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="3287.16216216217"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-1837.83783783784"/>
+																	</PropertyList>
+																	<MidiSourceRef Name="midi-gba" ID="{E83A64F4-961C-428E-A125-0B9734BF418A}"/>
+																</MusicClipMidi>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{614A2A55-B713-4782-A730-E49CE2CEA7EA}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{3459BAFA-D679-4F82-8541-9320B9866B92}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="1468.46846846847"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

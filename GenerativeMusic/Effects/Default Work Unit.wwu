@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED1D9C05-1F2A-4209-9884-58E75ACE2FD6}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{ED1D9C05-1F2A-4209-9884-58E75ACE2FD6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Gain" ID="{0C38123F-050C-4E9E-A9B6-CDD453943BB5}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9B2B2E1A-2D34-482E-8005-9229BF722330}" ShortID="593391284">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="New Modulator LFO_01" ID="{BBDFBC9A-E095-4A2C-817D-2161C97E53EE}" WorkUnitID="{63687365-3D97-4A8B-9485-4271418477BA}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{54C2CF84-6C3D-41BA-86F9-BA3BF3E62ADE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96.3000030517578</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-0.02815</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Gain_01" ID="{AC3BE892-A36C-44C0-BED3-61CF6FC0E1C7}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{21A6751B-5619-4840-B1BF-F4F378135CF6}" ShortID="127317236">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="New Modulator Time" ID="{61E0F4E0-624A-4885-BC68-C6A5065C77D6}" WorkUnitID="{63687365-3D97-4A8B-9485-4271418477BA}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8706EECB-0EE9-4D90-90C1-08525ECB1943}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-96.3000030517578</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

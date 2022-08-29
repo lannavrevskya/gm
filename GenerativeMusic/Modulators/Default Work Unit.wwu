@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63687365-3D97-4A8B-9485-4271418477BA}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{63687365-3D97-4A8B-9485-4271418477BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="New Modulator LFO" ID="{F11AF43F-1539-4D48-A739-C322BEEC148A}" ShortID="869078600">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="49.5"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.52"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{B42A61D2-1EC8-4E44-B756-B8202AFFB023}" ShortID="731028852"/>
+				<ModulatorLfo Name="New Modulator LFO_01" ID="{BBDFBC9A-E095-4A2C-817D-2161C97E53EE}" ShortID="254829679"/>
+				<ModulatorTime Name="New Modulator Time" ID="{61E0F4E0-624A-4885-BC68-C6A5065C77D6}" ShortID="1012457445">
+					<PropertyList>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+					</PropertyList>
+				</ModulatorTime>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

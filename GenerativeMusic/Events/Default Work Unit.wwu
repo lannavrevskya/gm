@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{561B138B-0268-4E14-BB0D-0AAD77CF58AF}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{561B138B-0268-4E14-BB0D-0AAD77CF58AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="New_Event" ID="{940271B0-7BEF-4CAC-8F36-5D35B5CAF8AB}">
+					<ChildrenList>
+						<Action Name="" ID="{C3219193-6D33-4A32-913E-3B70FE6265E1}" ShortID="1022388904">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Playlist Container_02" ID="{ABB98993-64C0-4B04-B581-98CB15653B79}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DA31BE88-076F-41A3-869F-20B780F7260D}" ShortID="187700209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Playlist Container" ID="{875556B3-E01C-42E7-A0B8-BCBFCF4F0E29}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{60385F1B-0D25-4B2E-BAEE-8622547A4784}" ShortID="180655844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Playlist Container_04" ID="{C6C4F91F-D347-4326-8BA1-D5FBAB7C085A}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

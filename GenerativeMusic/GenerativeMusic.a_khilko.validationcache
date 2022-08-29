@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Virtual Acoustics\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Triggers\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Switches\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\States\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\SoundBanks\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Queries\Factory Queries.wwu" DateLow="1655223781" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Queries\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Presets\Factory Spatial Audio.wwu" DateLow="1655223781" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Presets\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Modulators\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Mixing Sessions\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Metadata\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1661555007" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\GenerativeMusic.wproj" DateLow="1661546951" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\GenerativeMusic.a_khilko.wsettings" DateLow="1661602744" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Game Parameters\Factory SoundSeed Grain.wwu" DateLow="1661545280" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Game Parameters\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Events\Default Work Unit.wwu" DateLow="1661555112" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Effects\Factory Effects.wwu" DateLow="1661555299" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Effects\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Conversion Settings\Factory SoundSeed Grain.wwu" DateLow="1661545280" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1655223781" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Conversion Settings\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Control Surface Sessions\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Audio Devices\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Attenuations\Default Work Unit.wwu" DateLow="1661546952" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Actor-Mixer Hierarchy\Factory SoundSeed Grain.wwu" DateLow="1661545280" DateHigh="0"/>
+	<ValidationCacheItem File="F:\AK Audio\GenerativeMusic\GenerativeMusic\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1661602743" DateHigh="0"/>
+</ValidationCache>
