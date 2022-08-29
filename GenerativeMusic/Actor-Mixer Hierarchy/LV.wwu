@@ -5903,6 +5903,35 @@
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="bowl_01" ID="{FF4653F0-E684-4F60-B8EC-F1D3D9F95653}" ShortID="207224688">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="bowl_01" ID="{E842BD83-8948-412E-8F83-BDE303016146}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="4.73062924349672"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="5.06587068594925"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="15.9053439919142"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Tibet\bowl_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="953953588"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="bowl_01" ID="{E842BD83-8948-412E-8F83-BDE303016146}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
