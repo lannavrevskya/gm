@@ -4823,9 +4823,9 @@
 								<Sound Name="sitar_a1" ID="{72AB3800-95D9-4CE5-B287-46E6C7F929D1}" ShortID="364352904">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="34"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="32"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="33"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="56"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4853,9 +4853,9 @@
 								<Sound Name="sitar_a2" ID="{26F50588-1673-431E-8FA3-528870D74DFF}" ShortID="188093272">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="46"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="45"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="45"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="69"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4883,9 +4883,9 @@
 								<Sound Name="sitar_a3" ID="{3A9DB511-367C-4AD1-A365-32B3A06EADE3}" ShortID="437432560">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4913,9 +4913,9 @@
 								<Sound Name="sitar_b1" ID="{6160264A-EE6C-47BD-98CF-C74A69243ED1}" ShortID="934190841">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="35"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="35"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="35"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="59"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="59"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4943,9 +4943,9 @@
 								<Sound Name="sitar_b2" ID="{4F27FB92-C93D-4C44-A510-14481CF21D68}" ShortID="234215449">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="47"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="47"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="47"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="71"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="71"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4973,9 +4973,9 @@
 								<Sound Name="sitar_c1" ID="{8EBBB578-7321-4B49-A9D3-C4634ACDC03C}" ShortID="389159180">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="25"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="24"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="24"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5003,9 +5003,8 @@
 								<Sound Name="sitar_c2" ID="{3DDB9DCE-24BE-4C06-A82E-9344A7C1B169}" ShortID="604450494">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="37"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="36"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5033,9 +5032,9 @@
 								<Sound Name="sitar_c3" ID="{7E7614D9-56E7-472A-AA63-B1198B30A66C}" ShortID="441213635">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="73"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5063,9 +5062,9 @@
 								<Sound Name="sitar_d1" ID="{3971F85C-75AD-4FA0-A957-A27BABA477B2}" ShortID="667081982">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="27"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="26"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="26"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5093,9 +5092,9 @@
 								<Sound Name="sitar_d2" ID="{C111DB7F-DB10-4000-9371-C2CF3FF138F3}" ShortID="967508701">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="39"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="38"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="38"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5123,9 +5122,9 @@
 								<Sound Name="sitar_d3" ID="{5C17C9B0-D92B-4857-8C76-E9C3ED45E5B6}" ShortID="830019939">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="74"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5153,9 +5152,9 @@
 								<Sound Name="sitar_e1" ID="{94E8C8F6-34AE-4D76-B2EC-73A3F03BECDB}" ShortID="57804936">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="28"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="28"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="28"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5183,9 +5182,9 @@
 								<Sound Name="sitar_e2" ID="{ADA6F3CE-C13D-4D66-9313-AEE9461F7987}" ShortID="485496534">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="40"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="40"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="40"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="64"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5213,9 +5212,9 @@
 								<Sound Name="sitar_e3" ID="{64841A2A-D7E6-45C1-A53D-EF202C8BC66D}" ShortID="590523379">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="76"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="76"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5243,9 +5242,9 @@
 								<Sound Name="sitar_f1" ID="{ABF26E2F-1B0E-4330-8FB7-08F95A95E116}" ShortID="787776037">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="30"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="29"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="29"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5273,9 +5272,9 @@
 								<Sound Name="sitar_f2" ID="{56F8676F-39C9-4873-B4E7-DD6A14439D0A}" ShortID="521867296">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="42"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="41"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="41"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5303,9 +5302,9 @@
 								<Sound Name="sitar_f3" ID="{389FBFEB-B2E6-4B40-903F-7DC5AC7106D4}" ShortID="998710375">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="78"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="77"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="77"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5333,9 +5332,9 @@
 								<Sound Name="sitar_g1" ID="{83489749-97A6-4D46-8FC5-D6EE3541BDE4}" ShortID="884778116">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="32"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="31"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="31"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5363,9 +5362,9 @@
 								<Sound Name="sitar_g2" ID="{9CFDA0FC-7214-477E-AEFA-FB0D620AD3F5}" ShortID="785574307">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="44"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="43"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="43"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="68"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="67"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="67"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5393,9 +5392,9 @@
 								<Sound Name="sitar_g3" ID="{89853BE0-97C3-4895-9EED-55C34CBF60F7}" ShortID="316996396">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="79"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5480,9 +5479,9 @@
 								<Sound Name="sitar_phrases_a2_01" ID="{C41ACD39-B844-4002-A9A2-9F9C8B07349F}" ShortID="960557083">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="46"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="44"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="45"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="68"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
 										<Property Name="OverrideMidiEventsBehavior" Type="bool" Value="True"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
@@ -5511,9 +5510,9 @@
 								<Sound Name="sitar_phrases_a2_02" ID="{95EE3B7F-A2E3-4341-94BB-5853A119625B}" ShortID="486349430">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="46"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="44"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="45"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="68"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
 										<Property Name="OverrideMidiEventsBehavior" Type="bool" Value="True"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
@@ -5542,9 +5541,9 @@
 								<Sound Name="sitar_phrases_a3_01" ID="{15B1A94A-1437-4A9D-A859-00DC6FA3EB88}" ShortID="360602929">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
 										<Property Name="OverrideMidiEventsBehavior" Type="bool" Value="True"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
@@ -5573,9 +5572,9 @@
 								<Sound Name="sitar_phrases_a3_2" ID="{A29BC589-7F78-47BD-A08F-3702143304F3}" ShortID="559826765">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5603,9 +5602,9 @@
 								<Sound Name="sitar_phrases_b2" ID="{09EE4CB7-96F6-427D-846A-9EF274ED37A0}" ShortID="75669163">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="47"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="47"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="47"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="71"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="71"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5633,9 +5632,9 @@
 								<Sound Name="sitar_phrases_b3" ID="{C06B90EE-1946-4384-972D-428581351844}" ShortID="527698880">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="59"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="59"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="83"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="83"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="83"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5663,9 +5662,9 @@
 								<Sound Name="sitar_phrases_c3" ID="{04D94561-16C0-4A1D-84FD-66185EC8DCEA}" ShortID="901072904">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="73"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5693,9 +5692,9 @@
 								<Sound Name="sitar_phrases_d3" ID="{FA158AC3-7294-42E2-A1AE-F42B385C7889}" ShortID="332427322">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="74"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5723,9 +5722,9 @@
 								<Sound Name="sitar_phrases_e3" ID="{26543C3A-5DFE-48BC-AFA9-761F25B0A9A5}" ShortID="666751722">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="76"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="76"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5753,9 +5752,9 @@
 								<Sound Name="sitar_phrases_f3" ID="{FB858D6E-61D4-4618-A49C-1E38AEDCA124}" ShortID="281223259">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="78"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="77"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="77"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -5783,9 +5782,9 @@
 								<Sound Name="sitar_phrases_g3" ID="{8DEE9A07-8DE3-4F14-925F-2BA8E22C0E6F}" ShortID="698257050">
 									<PropertyList>
 										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
-										<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
-										<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
-										<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="79"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
 										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
