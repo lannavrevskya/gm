@@ -31027,6 +31027,32 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="exhale" ID="{E3F8C05B-17EB-4140-8186-3EEE409A4527}" ShortID="540014794">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="exhale" ID="{10FB6088-A315-4FD0-9282-5B6D37371A88}">
+									<Language>SFX</Language>
+									<AudioFile>Tibet\exhale.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="409162141"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="exhale" ID="{10FB6088-A315-4FD0-9282-5B6D37371A88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -52,6 +52,9 @@
 				<Event Name="test_both" ID="{30C949F0-D8AA-410F-ABA2-2E3D176130D8}">
 					<ChildrenList>
 						<Action Name="" ID="{BBAFDB7B-5751-4288-9302-1C69821E7FE5}" ShortID="811330856">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="15"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Playlist_keys" ID="{1CC8E7F5-EBC4-4667-B891-A216FA8DBB14}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>

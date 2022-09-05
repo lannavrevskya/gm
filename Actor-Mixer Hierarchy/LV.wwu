@@ -30,6 +30,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="1_intro" ID="{939FD855-ED35-4DBF-94D5-7A39A24A4068}" ShortID="406740495">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>300</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
@@ -44,6 +51,11 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
 														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
 													</ValueList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -128,6 +140,11 @@
 														<Value>0.2</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-450</Value>
+													</ValueList>
+												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -186,10 +203,15 @@
 														<Value>20</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="15"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>
@@ -287,6 +309,11 @@
 														<Value>6.5</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -372,6 +399,11 @@
 												<Property Name="MakeUpGain" Type="Real64">
 													<ValueList>
 														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-50</Value>
 													</ValueList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -489,6 +521,16 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
 														<Value>11.5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
 													</ValueList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -744,6 +786,18 @@
 											<ObjectLists/>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="intro" ID="{CD286F9F-0DCF-4AA8-AEB7-3A028F18B236}" ShortID="856706095">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-700</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
@@ -784,6 +838,11 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
 														<Value>27</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2344,6 +2403,11 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ValueList>
 														<Value>18</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-100</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

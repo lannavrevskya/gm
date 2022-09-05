@@ -49,6 +49,120 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Tibet Tonal" ID="{1092DFCE-B720-429B-AF94-C4584FD7C1F9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="stinger_01" ID="{275491DC-4C98-4AC9-84B5-6A72637AC5B1}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="low_grained_gong" ID="{C100887F-DFAF-4ACF-A827-6174B05E2641}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="perc_grain" ID="{819941D1-AF0E-49E9-A3CF-B5E4A03F1936}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="orch_drone_e-a_02" ID="{44EDB478-1072-4F3F-920C-EC8BAED2A2FA}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Playlist_keys" ID="{1CC8E7F5-EBC4-4667-B891-A216FA8DBB14}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bazar_crowd" ID="{9B000238-03EB-4890-A4D2-A6A0DA69700E}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="orch_drone" ID="{CF3DB39D-BA9E-4814-8882-767BE8B2DC14}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sand" ID="{6DEEDF37-19F0-4686-A55D-9764030CF3E1}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bowl" ID="{04387E64-7781-424F-A249-EE9E897F4854}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="orch_windy_a" ID="{3D95AC12-BA5F-4C7C-A9EE-6D43878A8D0A}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sitar_hole" ID="{77F0C8F4-A4EA-4BB3-BEE8-E8C6E296B2F2}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="crowd_hole" ID="{CCAD3255-80F8-4C9F-B51A-CB7F7FEFF4EA}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="orch_windy_c" ID="{900E9ACE-EB68-4B53-9CBF-BF420AF04DC6}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ocean" ID="{2884A25E-DA01-469C-803E-55ECBFEBBA70}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="didgerido" ID="{7242BEE8-3482-4D8C-82E4-AFF3F3723102}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="part_01" ID="{435C0113-241E-48B6-A701-6301B363DC99}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="part_03_loop" ID="{CA14DBE9-4E29-4F28-B16A-B93D36E05F34}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="glass_sand" ID="{6810F40D-53EF-4A69-B044-86E3AE256589}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="part_02" ID="{46F6CB89-9A5E-4F54-AC03-CDD495B41D0B}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="exhale" ID="{0DEACEAF-123D-4C57-81CC-261B3B937D8D}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Proximity_FA_SSGrain" ID="{05F1ABB4-7338-42BC-A378-B1E2B12EE3CB}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Simulation_FA_SSGrain" ID="{71905071-0A79-42FE-9CD6-C631171DC3A4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Immersion_FA_SSGrain" ID="{3F41E622-166C-4532-BEF7-1DC9FF7EAB94}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Instrument_FA_SSGrain" ID="{6279AF44-C082-4608-981E-9A63D1EE7555}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Density_FA_SSGrain" ID="{63B3F29E-04F3-4887-BA1A-4D7694644B24}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM_FA_SSGrain" ID="{C092E65B-E5C4-4C55-8A68-576E98BBFF39}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
