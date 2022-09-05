@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{140CE111-37F5-4205-B42D-207A68D94F41}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Instruments" ID="{140CE111-37F5-4205-B42D-207A68D94F41}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Keys" ID="{BCDF3B93-6CF3-4891-8652-6C0128CEC4E4}" ShortID="927698371">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{3FDD1ECF-E51E-4CF4-A84E-0CAA595C359E}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="piano" ID="{F0E404DD-AE45-41BA-8350-B29E20220B1A}" ShortID="133556651">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="a3" ID="{11A064BE-A62C-450C-9985-19E5FD17F94E}" ShortID="927937943">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{9EB09631-7639-4C38-8B4F-71F029E2D149}" ShortID="354277591">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D07AF26E-59C0-46C9-854C-0D3C2F7A2B08}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{749F4D25-A438-4016-B2AD-8A32496AA26B}" ShortID="916881285">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FFCF46C3-24DB-453E-AC3B-D73303FE2CAF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="57"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="a3" ID="{1CFFE284-1552-4BD9-8593-5506CA8FE89C}">
+											<Language>SFX</Language>
+											<AudioFile>a3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70884673"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="a3" ID="{1CFFE284-1552-4BD9-8593-5506CA8FE89C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="c3" ID="{19B3668D-3FC2-4379-A6B6-E3FF0043267F}" ShortID="749072501">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{D07F684A-B641-49E4-8D0B-F120F4B603BE}" ShortID="127167582">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C436811C-C98D-4D7D-A750-9B51B12B453D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{C43810E0-8251-48BE-B8D7-7AD7AF5570CB}" ShortID="275854885">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{52A4A3BB-D80B-45DF-8463-4F8F3D87CFEE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="c3" ID="{F616838A-A8A4-4A19-90C1-177590BA62FF}">
+											<Language>SFX</Language>
+											<AudioFile>c3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46746974"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="c3" ID="{F616838A-A8A4-4A19-90C1-177590BA62FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="c4" ID="{F14AE2F1-D766-4429-9F0E-0B9AD20F1ADE}" ShortID="781533812">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{511CDF9A-A9DF-488D-9E9B-46D527627B11}" ShortID="123411275">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{96944E5F-B4DC-443B-8DF6-45A3B3AFB1CE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{2CB07D0B-01D4-43F0-AD48-1EBA9AE1F826}" ShortID="846437375">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DE5C292A-CC97-467C-BC47-F67419037D1E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="c4" ID="{077916B4-4BF1-4B3C-9A7A-CC4285957B1F}">
+											<Language>SFX</Language>
+											<AudioFile>c4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261494545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="c4" ID="{077916B4-4BF1-4B3C-9A7A-CC4285957B1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="c5" ID="{9601175A-82F8-4A15-A5F9-9D970716EAAE}" ShortID="78374116">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{81F480D7-A745-4237-8EEA-508EF93EB822}" ShortID="482989654">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{05662449-8CF2-479F-A37F-0AF718C8C202}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{F8FDD460-73A3-4B26-8A35-07F92986B281}" ShortID="670984219">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{59A3291E-43CA-40FC-93A3-D1BB5DDBA865}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="84"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="c5" ID="{35D574DF-0D93-4909-82A0-3884B67F427F}">
+											<Language>SFX</Language>
+											<AudioFile>c5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="389823736"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="c5" ID="{35D574DF-0D93-4909-82A0-3884B67F427F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="e3" ID="{7AC8D4E1-5F33-4CD6-B250-6AA608CB4DE7}" ShortID="980163461">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{65359B7C-AAD5-4F18-B488-4CF423B8AAF6}" ShortID="615804347">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4D0BFA65-D2A2-491F-B688-C23A93DC41D1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{0693DF0A-CFA0-4156-90C0-4E95F9A4A38C}" ShortID="219330629">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9C7561A6-EE95-41AB-97E7-1D4562EDDAF2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="e3" ID="{4AE745F9-6047-4674-9BF8-C236FD8EABDC}">
+											<Language>SFX</Language>
+											<AudioFile>e3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144453008"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="e3" ID="{4AE745F9-6047-4674-9BF8-C236FD8EABDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="e4" ID="{88623D0B-5F6C-44E4-927C-EFB2D10478F4}" ShortID="803689406">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{DC42B024-5B44-4D64-A98A-C4DE93E62970}" ShortID="341300675">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8CF25939-5D2B-45C9-B111-13609E21828D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{71EFD098-EEBC-46C2-86A8-C7244013BFAA}" ShortID="99367923">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{AC99D13D-9123-462F-85CB-3CFF8F5720B5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="e4" ID="{2298B7E3-9A26-4540-92DA-9164CECE86DC}">
+											<Language>SFX</Language>
+											<AudioFile>e4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34004738"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="e4" ID="{2298B7E3-9A26-4540-92DA-9164CECE86DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="g3" ID="{9328846E-63EB-4C19-ACFF-48D92F6C2DF7}" ShortID="248640383">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{8450796F-3AB9-4180-B94C-FA1140B26104}" ShortID="644620938">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BDD6A776-01EB-4F1F-AAA9-D786AA988CD3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{CF7A3758-6B63-49AB-9725-6DA15FD23DC2}" ShortID="50790811">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{379F447E-F1B0-49E0-899C-7B433E79F951}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="g3" ID="{A4D94987-6472-4B62-8FEC-6A479BF34A2D}">
+											<Language>SFX</Language>
+											<AudioFile>g3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="38534705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="g3" ID="{A4D94987-6472-4B62-8FEC-6A479BF34A2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="g4" ID="{71A45945-1B4F-4921-A429-6351C1B89C33}" ShortID="629804519">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{1290F9E7-61D4-4621-B17F-19E5CECF75EC}" ShortID="540461310">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{AACB0A1E-F97A-4A05-9517-A0F34EE00325}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>37</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{58D3E8C2-98EF-455F-B2B9-9F2A5E77740F}" ShortID="69225697">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EE18C540-11BA-4FD7-915B-64AE7CCCEF11}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="67"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="67"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="g4" ID="{4C934F2D-0DE9-4A10-B302-48CFB297690D}">
+											<Language>SFX</Language>
+											<AudioFile>g4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615729386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="g4" ID="{4C934F2D-0DE9-4A10-B302-48CFB297690D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+										<CustomState Name="" ID="{80157A64-C2B0-4BA5-A0FE-234062C32E9A}" ShortID="338444032"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+										<CustomState Name="" ID="{AF252E1A-3DB1-44CB-ADF7-FCDD84DDD609}" ShortID="620395386">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="sitar" ID="{E0E892B2-3124-477E-A259-13D314C96223}" ShortID="851548247">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{D9EA05A3-1804-4C21-BCB0-85117196507C}" ShortID="1021930962">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{7D81BB9E-0278-4D5F-AD75-76E20695BBF1}" ShortID="993376209">
+															<PropertyList>
+																<Property Name="LfoFrequency" Type="Real64" Value="0.006"/>
+																<Property Name="LfoPWM" Type="Real64" Value="55.8"/>
+																<Property Name="LfoSmoothing" Type="Real64" Value="39"/>
+																<Property Name="LfoWaveform" Type="int32" Value="2"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8D0ADA6-C77A-49B2-978C-3BBA56CA41BE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-40</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="33"/>
+								<Property Name="OverrideMidiEventsBehavior" Type="bool" Value="True"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{3C68C44C-82BB-405D-BFEE-2F2EAAECF80F}" ShortID="591499517" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-1.3"/>
+												<Property Name="ERPattern" Type="int32" Value="15"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-7"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sitar_a1" ID="{E724116F-86C1-4C57-9DE1-A7CFE740C734}" ShortID="741022248">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="58"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="56"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="57"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_a1" ID="{D539DCF8-D792-40B5-BFFA-1760FFFDA345}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_a1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="145702928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_a1" ID="{D539DCF8-D792-40B5-BFFA-1760FFFDA345}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_a2" ID="{4D438E3A-DD25-46DA-B640-497F99E734C8}" ShortID="1037506428">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="70"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="69"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="69"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_a2" ID="{44B0B609-D7D0-45CB-A2D1-076778940A53}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_a2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46120864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_a2" ID="{44B0B609-D7D0-45CB-A2D1-076778940A53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_a3" ID="{F57080CA-C16F-454F-9E70-659330C0BE72}" ShortID="1029455697">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="82"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="81"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="81"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_a3" ID="{6145F24F-EB37-44FC-847A-BF6E4FB49B57}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_a3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977943087"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_a3" ID="{6145F24F-EB37-44FC-847A-BF6E4FB49B57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_b1" ID="{5AE079D1-EC71-4433-84E3-B18199BBA6B8}" ShortID="690511027">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="59"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="59"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="59"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_b1" ID="{B9E60F62-EC83-40D8-ACEB-D256C14579B2}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_b1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734924794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_b1" ID="{B9E60F62-EC83-40D8-ACEB-D256C14579B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_b2" ID="{E717F557-EBDB-4370-9812-E1EC49BC2B5F}" ShortID="1029182493">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="71"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="71"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="71"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_b2" ID="{9F2FA349-A116-4A4F-879F-87E3E141C411}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_b2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345434699"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_b2" ID="{9F2FA349-A116-4A4F-879F-87E3E141C411}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_c1" ID="{06F2F13E-863A-4F2A-BA52-158C05897875}" ShortID="821642427">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="49"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="48"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="48"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_c1" ID="{F0D55292-34ED-41DD-89F0-58D8F8A9FD28}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_c1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783530899"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_c1" ID="{F0D55292-34ED-41DD-89F0-58D8F8A9FD28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_c2" ID="{6B4918DD-5D9A-4C4B-9229-5AB014A016D3}" ShortID="255196635">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_c2" ID="{C7B14556-D73A-450B-A1EC-383A8B98E3E1}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_c2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994551575"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_c2" ID="{C7B14556-D73A-450B-A1EC-383A8B98E3E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_c3" ID="{ADDA7217-C136-4969-9581-6F32DE6074DC}" ShortID="520777634">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="73"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="72"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_c3" ID="{E98D42AD-D7A7-470C-8C8E-E9D54A46D99E}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_c3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581358737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_c3" ID="{E98D42AD-D7A7-470C-8C8E-E9D54A46D99E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_d1" ID="{94FE3E1E-D029-4033-96A6-90E51BA165CE}" ShortID="228387345">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="51"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="50"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="50"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_d1" ID="{D9F02A30-9EC2-4825-BA3F-FE23ABEC98D7}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_d1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92549769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_d1" ID="{D9F02A30-9EC2-4825-BA3F-FE23ABEC98D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_d2" ID="{52359563-16D5-435F-8E3C-BEDE268D071D}" ShortID="558675034">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_d2" ID="{2E2B4EBF-120D-4EE1-AB87-D35CC408E17F}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_d2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674483438"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_d2" ID="{2E2B4EBF-120D-4EE1-AB87-D35CC408E17F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_d3" ID="{04E31935-04E3-4762-A372-5A5AC2384872}" ShortID="360334631">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="75"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="74"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="74"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_d3" ID="{F04360E1-73A9-4450-8BD0-68048F523F18}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_d3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446740728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_d3" ID="{F04360E1-73A9-4450-8BD0-68048F523F18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_e1" ID="{C32AC5D5-9746-47E6-8E01-49F0E4C78387}" ShortID="33051276">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="52"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="52"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="52"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_e1" ID="{319FA85C-C627-4812-9EDA-61C6CCFBBF04}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_e1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884107387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_e1" ID="{319FA85C-C627-4812-9EDA-61C6CCFBBF04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_e2" ID="{E56270B2-A501-4859-AC11-9E663B6F3B67}" ShortID="309931526">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="64"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_e2" ID="{CDAE63F5-B74B-43C5-94AB-11EF0ED93E22}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_e2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125982632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_e2" ID="{CDAE63F5-B74B-43C5-94AB-11EF0ED93E22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_e3" ID="{2C213B87-A39F-49BF-98D6-D45A4BD6BA83}" ShortID="186081147">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="76"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="76"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="76"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_e3" ID="{605B8E4B-26AE-4A13-B51E-391EE1CB45E6}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_e3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615222379"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_e3" ID="{605B8E4B-26AE-4A13-B51E-391EE1CB45E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_f1" ID="{5BCDF790-7D15-46D7-B766-7431ABB723C7}" ShortID="987547257">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="54"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="53"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="53"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_f1" ID="{E193921F-5311-428C-B250-B18E2A77A162}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_f1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281100780"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_f1" ID="{E193921F-5311-428C-B250-B18E2A77A162}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_f2" ID="{D33D00EF-4DD7-4BE8-B0D3-C55BC4A83D16}" ShortID="385741572">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_f2" ID="{E3EB3155-850B-47FE-AFBA-46F4EB933CA2}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_f2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="369629290"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_f2" ID="{E3EB3155-850B-47FE-AFBA-46F4EB933CA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_f3" ID="{40E57E1B-33B1-41F2-8A2F-A2AF57D2B764}" ShortID="786068443">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="78"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="77"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="77"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_f3" ID="{EE98B4E9-D04C-4CED-932C-0C48834C0AE1}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_f3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="445584291"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_f3" ID="{EE98B4E9-D04C-4CED-932C-0C48834C0AE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_g1" ID="{C5E7C0B6-BE8B-4A33-81E4-23A679E9DA18}" ShortID="621739148">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="56"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="55"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="55"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_g1" ID="{B5F3FB95-0BC9-49F9-91BD-1D9FC69D5283}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_g1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="842286321"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_g1" ID="{B5F3FB95-0BC9-49F9-91BD-1D9FC69D5283}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_g2" ID="{CB281E76-85D3-43E4-A4BF-573F29AC4AA3}" ShortID="1010352658">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="68"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="67"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="67"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_g2" ID="{93AE4EBD-56A2-4203-A7F5-84995A4BA8AF}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_g2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678980081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_g2" ID="{93AE4EBD-56A2-4203-A7F5-84995A4BA8AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sitar_g3" ID="{C92C9116-AC6E-4C12-A1FB-B9449569A0A3}" ShortID="751485883">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="80"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="79"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="79"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sitar_g3" ID="{85253EF3-5C1E-4FA8-AE1C-DA50FFE337F0}">
+											<Language>SFX</Language>
+											<AudioFile>Sitar\sitar_g3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487885504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sitar_g3" ID="{85253EF3-5C1E-4FA8-AE1C-DA50FFE337F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+										<CustomState Name="" ID="{284740AB-8461-4303-A212-1573F9F7E01C}" ShortID="695400254">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+										<CustomState Name="" ID="{B7703FE3-DFC1-4E44-90E6-57EC05947A35}" ShortID="225387672"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<BlendContainer Name="Granular" ID="{0E241EEA-80B7-4EC9-9506-27116CDB7A8C}" ShortID="535098577">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>57</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{05D053E9-AD09-4FDD-AA88-D484BDB81ED1}" ShortID="1010528963">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<Custom>
+												<ModulatorLfo Name="Modulator LFO (Custom)" ID="{5DF9533D-B621-44B6-B32A-D594F069FE16}" ShortID="324957038">
+													<PropertyList>
+														<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+														<Property Name="LfoPWM" Type="Real64" Value="65.3"/>
+														<Property Name="LfoSmoothing" Type="Real64" Value="79"/>
+														<Property Name="LfoWaveform" Type="int32" Value="2"/>
+													</PropertyList>
+												</ModulatorLfo>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3F97596A-12B8-466C-98BD-CA24DC0DCFF3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-8.49249</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Granular1" ID="{7AA5C473-AF8E-430B-B555-6A5DDD9C1092}" ShortID="44495448">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{B73DD2ED-F38B-4E70-BD83-AB5D45359A7D}" ShortID="21345473" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="268"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{58540961-4C2B-43DF-86AD-46AC254F0E10}" ShortID="629435249">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{7EDBEB54-4A4D-4607-AB08-6D7E784490A5}" ShortID="480272434">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6C1843DB-96A1-42F8-89B6-E164FF155B0C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="5000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn4" ID="{5D8F8C0D-9E82-4941-9BD2-A3564331A782}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434367256"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{408C86D1-28F3-4A09-9258-5813C6355ADE}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{E759E533-FE59-4302-93DC-2C8CCC563C3A}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{BFE2D4DB-3147-414A-82D5-1D1EB21F4701}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{8B4C19F7-5A50-4A8C-9E36-AEAFA118625B}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{954AFA3E-C79A-41E6-8AA7-6CB167B3BD99}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{8AF5FA6A-04DF-4061-AEBB-BAD6052F45CA}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A939743B-6084-4165-AF2D-B9CB3AF0AC33}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{B73DD2ED-F38B-4E70-BD83-AB5D45359A7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Granular2" ID="{E80E8B90-0FB3-47A4-BBFE-3CDFB31D5A9C}" ShortID="59903302">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{38297980-D59F-4421-B369-33A1B7AF8DD2}" ShortID="1057084175" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="268"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{A1B7CA2D-FCB9-49CF-B867-DB29A7F7BD29}" ShortID="135796859">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{28B5F86F-67D3-4F1C-BB40-73AF585F9AD8}" ShortID="83910329">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C1B5B211-C145-443E-81A7-64DC4180903B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_07" ID="{954C35F3-8531-48B7-8BD8-B9DF98E437E6}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980022440"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{76AE5F82-13BE-477D-B062-2C1CD313A15A}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{AD4FA691-4ADC-4C8C-8287-D30EDA29107B}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{B457268A-541B-49A6-A0F7-ACF3FC77B8FA}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{92D78E6C-B1EB-41CB-A2D7-811D38A76C5F}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{D1CF7BA3-3B94-42C4-8D0E-432A6C3B862E}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{D025FA4C-BD63-42B7-ABD0-94C788F7D24D}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{88888E45-BFBE-487B-A380-D05B4E2E3F7D}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{38297980-D59F-4421-B369-33A1B7AF8DD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+								<CustomState Name="" ID="{99144744-AF4E-46AD-98C9-2FA87166BDBC}" ShortID="469898804"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+								<CustomState Name="" ID="{3F84868C-6904-4185-B39A-8C6461B2C7CF}" ShortID="739023508">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{56AE4028-0C5D-41ED-B5B8-BF0AD0C23855}" ShortID="348207283">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<Custom>
+										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{2058174C-F877-4150-A5C4-BA23DD346620}" ShortID="716662543">
+											<PropertyList>
+												<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+											</PropertyList>
+										</ModulatorLfo>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular1" ID="{7AA5C473-AF8E-430B-B555-6A5DDD9C1092}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.50025</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular2" ID="{E80E8B90-0FB3-47A4-BBFE-3CDFB31D5A9C}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.40025</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>1</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<Folder Name="Granular_samples" ID="{9E62FAB3-EBEE-4C1B-93F4-A131ED99650A}" ShortID="616572658">
+					<ChildrenList>
+						<Sound Name="grn_07" ID="{AED169FF-6DAD-494F-9E1B-E2AF9A305576}" ShortID="231033858">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="grn_07" ID="{F6A271B1-B516-412D-9649-4D1536B6BE4E}">
+									<Language>SFX</Language>
+									<AudioFile>grn_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="954318213"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="grn_07" ID="{F6A271B1-B516-412D-9649-4D1536B6BE4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

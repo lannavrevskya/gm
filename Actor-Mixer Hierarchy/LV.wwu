@@ -4,6 +4,9 @@
 		<WorkUnit Name="LV" ID="{E5379004-28A1-4406-90B0-CEFF728C8B73}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Tibet" ID="{AD346050-A2F0-4908-A195-B3D1555DFA85}" ShortID="1070100762">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
@@ -4509,6 +4512,27 @@
 									<ObjectLists/>
 								</BlendContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+										<CustomState Name="" ID="{84E0AF2D-F08E-4F4D-933D-97805215EA98}" ShortID="214193394">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+										<CustomState Name="" ID="{D5850F9C-09E6-4832-A69F-4AC19CA548D8}" ShortID="191611029"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 							<Playlist>
 								<ItemRef Name="1_intro" ID="{939FD855-ED35-4DBF-94D5-7A39A24A4068}"/>
@@ -4519,6 +4543,27 @@
 							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+								<CustomState Name="" ID="{BAFA2DD1-D786-46C5-80D9-AA863AC00DFA}" ShortID="56321843">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+								<CustomState Name="" ID="{B3278AD6-CA92-4337-8D4F-6BF5A7191A2D}" ShortID="38209621"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<Folder Name="notes_for_midi" ID="{F7EC752C-C476-4297-B123-DD71F62AEDF8}" ShortID="386774603">

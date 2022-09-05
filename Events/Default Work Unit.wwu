@@ -8,7 +8,7 @@
 						<Action Name="" ID="{C3219193-6D33-4A32-913E-3B70FE6265E1}" ShortID="1022388904">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Playlist Container_02" ID="{ABB98993-64C0-4B04-B581-98CB15653B79}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+									<ObjectRef Name="Piano_v1" ID="{ABB98993-64C0-4B04-B581-98CB15653B79}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -23,6 +23,52 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="New Music Playlist Container_04" ID="{C6C4F91F-D347-4326-8BA1-D5FBAB7C085A}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="test_calm" ID="{2E857716-27C6-474F-B0EA-884B3B2E2BE8}">
+					<ChildrenList>
+						<Action Name="" ID="{A6E79DD1-F29D-418D-B8E3-4C7F787EBBD9}" ShortID="241314240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sitar_v1" ID="{6F13349D-3B7F-4F2C-B864-1C5D153298A2}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A7C16B2-67EF-4317-BEC8-49C0B524C4E9}" ShortID="72508812">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tibet" ID="{2876EA8F-1C3C-4FD3-AD95-02CE2D116A28}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="test_both" ID="{30C949F0-D8AA-410F-ABA2-2E3D176130D8}">
+					<ChildrenList>
+						<Action Name="" ID="{BBAFDB7B-5751-4288-9302-1C69821E7FE5}" ShortID="811330856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playlist_keys" ID="{1CC8E7F5-EBC4-4667-B891-A216FA8DBB14}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B47E950-DEAF-4538-992D-49C25AB8BCAD}" ShortID="507659064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tibet" ID="{2876EA8F-1C3C-4FD3-AD95-02CE2D116A28}" WorkUnitID="{E5379004-28A1-4406-90B0-CEFF728C8B73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1132B7D-F2D6-4FA7-8F96-56C512BB174C}" ShortID="677944925">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drone_v1" ID="{0C669D41-4F0D-4479-9516-5D10DB967601}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
