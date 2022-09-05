@@ -1528,7 +1528,7 @@
 								<SourcePlugin Name="SoundSeed Grain" ID="{B73DD2ED-F38B-4E70-BD83-AB5D45359A7D}" ShortID="21345473" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
 									<PropertyList>
 										<Property Name="Amplitude" Type="Real32" Value="98"/>
-										<Property Name="Attack" Type="Real32" Value="268"/>
+										<Property Name="Attack" Type="Real32" Value="61"/>
 										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
 										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
 										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
@@ -1845,6 +1845,352 @@
 								<ActiveSource Name="SoundSeed Grain" ID="{38297980-D59F-4421-B369-33A1B7AF8DD2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Granular3" ID="{06E1439F-F8FC-43C3-A128-041F0155CFC3}" ShortID="1041080009">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{435E8463-0771-4297-B6C0-46C0619D86E7}" ShortID="866433883" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="47"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{9057F35D-760E-4822-BFD1-61A9CB5E8C07}" ShortID="924793009">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{F957ED07-C03D-451D-BBA1-EDCE9D3C4481}" ShortID="105850158">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{21F8EBD0-4594-49F7-9DF7-E9CCA0975383}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_08" ID="{44C2F265-C39D-4CBB-94D4-0CCE0F1EF5C6}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913603889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{4FCB1589-0803-4C8E-8C22-5ABCCD0FC68C}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{18C3E0D5-04D5-46E0-B0B1-FA0F7887D789}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A06C7B5A-A324-4BC5-BE63-801668108EB8}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A0C14922-AD27-464C-A81C-23E0DE2318F5}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{6ADB9E03-185B-4E9D-8024-4172B8647C9A}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{6EA49B58-E7D2-47A1-9EE1-E83DFABA1B87}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{10758EB9-F25B-4BBD-8889-56ADD2117A15}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{435E8463-0771-4297-B6C0-46C0619D86E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Granular4" ID="{E20977B7-10B2-454C-8595-3EE04FDBDF0B}" ShortID="486777829">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{5C19FDD1-74FA-4594-8B00-A813ABD7EE7C}" ShortID="1020071547" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="74"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{081CC904-8790-4A6D-9573-B903F8D40C70}" ShortID="954928481">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{46F0A18A-CED5-499A-95F6-8E1BEDF448E2}" ShortID="218589934">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3109F39C-1729-4457-975F-3F02B5DCF12D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_09" ID="{6F3703CC-F030-49A4-AE29-8789F71301CE}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973910251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{EE118D9F-AD6F-447A-B50A-37F442D723BD}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{CF2DB06A-6212-47F4-A78B-346792457D6B}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{3B0DB24E-6BCB-47BF-A8FA-8F3A9BFC34D3}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{001F2960-66E3-4524-AB74-015B9623326E}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{101567F0-A432-4242-A822-18BA7DC9AF00}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{ACCEE420-D8DC-4CBF-A4DF-8600577AECD9}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A716AAE1-DEF6-41A9-9C8E-5635CDDA5C0A}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{5C19FDD1-74FA-4594-8B00-A813ABD7EE7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -1890,14 +2236,32 @@
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>0.50025</RightEdgePos>
+										<RightEdgePos>0.35675723025584</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Granular2" ID="{E80E8B90-0FB3-47A4-BBFE-3CDFB31D5A9C}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>0.40025</LeftEdgePos>
+										<LeftEdgePos>0.281228865406007</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.6091069243604</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular3" ID="{06E1439F-F8FC-43C3-A128-041F0155CFC3}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.531353865406007</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.842588570634038</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular4" ID="{E20977B7-10B2-454C-8595-3EE04FDBDF0B}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.788684614849833</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>1</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
@@ -1934,6 +2298,815 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<BlendContainer Name="Granular2" ID="{34168CC9-BDE1-42BD-A5D0-3B55DDF155D9}" ShortID="759600659">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>57</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{BC99C490-476D-45C5-ABB3-57365459A5C9}" ShortID="459548309">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<Custom>
+												<ModulatorLfo Name="Modulator LFO (Custom)" ID="{9A357CB2-7222-43CB-89E5-87BACE221DEB}" ShortID="1065365246">
+													<PropertyList>
+														<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+														<Property Name="LfoPWM" Type="Real64" Value="65.3"/>
+														<Property Name="LfoSmoothing" Type="Real64" Value="79"/>
+														<Property Name="LfoWaveform" Type="int32" Value="2"/>
+													</PropertyList>
+												</ModulatorLfo>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{95C936AE-471E-4FFE-B25A-7F914892612F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-8.49249</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Granular1" ID="{12A549E2-EA95-4430-90AD-90708A3A7640}" ShortID="226853916">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{82CD699E-022E-427F-8B43-336915D37CB1}" ShortID="425456509" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="400"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{2CB036B5-11F6-40A1-9292-2BA80961CAFF}" ShortID="195417306">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{C85889DA-F798-4480-9F15-7ED39AB111C6}" ShortID="755914898">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{086A2C45-A84E-469A-908B-88B02E22E087}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="5000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn4" ID="{8A403C9D-FEC4-4D51-A642-155F44D2F58C}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434367256"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{39FFF342-3BE0-4BB6-958B-18CA952311B4}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{041FD280-7A7A-4373-8DF6-FE8B5924AD18}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{6BABEF56-C6EA-4864-8024-22891A7690AD}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{295D7702-14D1-4130-B217-67A7791383B0}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{AA7CEC31-1787-453C-ABA5-1EE4DA6C3A12}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{8797C777-64A7-47B1-B342-506E7DA3CC92}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{A0D7D366-F728-43E3-9749-C525834BB6A5}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{82CD699E-022E-427F-8B43-336915D37CB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Granular2" ID="{08881EA0-07E0-45A6-9C98-B36E0712F910}" ShortID="822537520">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{5326F2FE-DC73-4BA2-AD38-FDEFE83B5532}" ShortID="977232363" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="400"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{F1BFF136-EA84-4208-9AE8-8C9E79F934A3}" ShortID="697183312">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{9AB10490-5F6D-48FA-8176-710559326E78}" ShortID="112085976">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{41026D17-C184-4ABF-8386-6EB4552DE5E3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_07" ID="{A489E24C-0400-4745-9685-4EB564C30E95}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980022440"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{83ACD066-837C-4962-B509-92078A9CF249}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{4B84E0E2-3479-4B4D-9DD7-8A1A2BE31722}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{6B9D2FC8-4EC9-441B-95F9-A65AD33B688D}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{F72280F3-C070-40B7-86BB-DBE99A21165A}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{F7491736-1106-43FC-9FBA-5EE42693D836}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{BC7DE384-D99A-4F6B-BC92-A993C21E2682}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{E5B42130-A084-4BDA-8C72-6D8A9646D3FB}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{5326F2FE-DC73-4BA2-AD38-FDEFE83B5532}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Granular3" ID="{6F397E17-4F27-4443-8BC0-8588DC54A652}" ShortID="210582333">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{314A0812-1352-48B5-8D1A-ABB997012DBD}" ShortID="288751942" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="400"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{E394BC07-5F48-4ABE-944B-C5BD4527E712}" ShortID="882745323">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{9634A7B1-D3F5-4253-ABBC-9CF3A35200DA}" ShortID="315882609">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EF51BA3A-6670-46D7-BFC8-195AE76706FB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_08" ID="{8A6FC041-BB52-4292-8026-072CCA7980CD}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913603889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{6A27FAF2-EC38-4A09-943F-A205E12F6B0B}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{BDF544AA-AAF3-49B7-9B36-BC99F5741AE6}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{F253559C-8D06-4604-9D0B-0E4E148790B5}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{8A6DBAC8-CBF5-4090-844C-AD89F37D7AA6}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{88661562-D0FB-4674-88FD-BF8C74D47AFA}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{B2B8BC29-2B49-43B2-9753-4999F9C54AAE}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{DAC476E1-92E7-4777-A0D7-7F209DC630CF}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{314A0812-1352-48B5-8D1A-ABB997012DBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Granular4" ID="{81E9592F-FD79-4928-8C09-11494D685631}" ShortID="775597333">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="72"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="36"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{05093147-A678-4F85-A90C-949B0221A304}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D7C4E954-E8F9-4B5C-99F4-7A3D4EA3E23E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Grain" ID="{EE3055FE-5B16-48A1-B11B-4247B7EE7944}" ShortID="475541451" PluginName="SoundSeed Grain" CompanyID="0" PluginID="183">
+									<PropertyList>
+										<Property Name="Amplitude" Type="Real32" Value="98"/>
+										<Property Name="Attack" Type="Real32" Value="400"/>
+										<Property Name="AttackMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="DurationMultiplier" Type="Real32" Value="4.1"/>
+										<Property Name="DurationMultiplierMod4Depth" Type="Real32" Value="1"/>
+										<Property Name="EnvelopeType" Type="int32" Value="2"/>
+										<Property Name="FilterFreq" Type="Real32" Value="1359"/>
+										<Property Name="FilterFreqMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="FilterQ" Type="Real32" Value="0.31"/>
+										<Property Name="GrainTime" Type="Real32" Value="40.48"/>
+										<Property Name="GrainTimeMod3Depth" Type="Real32" Value="4"/>
+										<Property Name="MarkerSelect" Type="Real32" Value="55.94388"/>
+										<Property Name="MarkerSelectMod2Depth" Type="Real32" Value="85"/>
+										<Property Name="OutputChannelConfig" Type="int32" Value="12546"/>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{AF144496-A199-4708-8F72-F17CB626A7C5}" ShortID="851290965">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{DDB31542-E4A2-44DC-A998-C9E3A0B7E414}" ShortID="17488655">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{CBE68237-D6A9-4A34-A1B7-ACBD583EEE93}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Release" Type="Real32" Value="3000"/>
+										<Property Name="ReleaseMod3Depth" Type="Real32" Value="1"/>
+										<Property Name="TransposeMod1Depth" Type="Real32" Value="20"/>
+										<Property Name="WindowMode" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<AudioFileSource Name="grn_09" ID="{9090ABC6-966E-4F9A-84BB-A3A13690CD89}">
+											<Language>SoundSeed Grain</Language>
+											<AudioFile>grn_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973910251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="ParameterModulatorAssociation">
+											<PluginInnerObject Name="" ID="{4C098FD6-D964-47B6-B82C-5CF2E5FC9494}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 1"/>
+													<Property Name="ModID" Type="int32" Value="31"/>
+													<Property Name="ModName" Type="string" Value="TransposeMod1Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Pitch"/>
+													<Property Name="ParamID" Type="int32" Value="30"/>
+													<Property Name="ParamName" Type="string" Value="Transpose"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{EE5B2845-90DD-4CC2-A304-90191F7376CA}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 2"/>
+													<Property Name="ModID" Type="int32" Value="152"/>
+													<Property Name="ModName" Type="string" Value="MarkerSelectMod2Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Position"/>
+													<Property Name="ParamID" Type="int32" Value="150"/>
+													<Property Name="ParamName" Type="string" Value="MarkerSelect"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{F5B06CA6-9AEE-4935-AED6-096470B13D6D}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="143"/>
+													<Property Name="ModName" Type="string" Value="GrainTimeMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Time between Emissions"/>
+													<Property Name="ParamID" Type="int32" Value="140"/>
+													<Property Name="ParamName" Type="string" Value="GrainTime"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{BE2B51D6-23EF-4D65-A5E1-DFA45AB31D13}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="44"/>
+													<Property Name="ModName" Type="string" Value="AttackMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Attack"/>
+													<Property Name="ParamID" Type="int32" Value="40"/>
+													<Property Name="ParamName" Type="string" Value="Attack"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{576B4004-087B-410F-AFCD-4F414AA7A1D8}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 4"/>
+													<Property Name="ModID" Type="int32" Value="64"/>
+													<Property Name="ModName" Type="string" Value="DurationMultiplierMod4Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Duration Multiplier"/>
+													<Property Name="ParamID" Type="int32" Value="60"/>
+													<Property Name="ParamName" Type="string" Value="DurationMultiplier"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{09C591BC-6D11-408C-A578-9D90E1431FCB}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="93"/>
+													<Property Name="ModName" Type="string" Value="FilterFreqMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Filter Cutoff"/>
+													<Property Name="ParamID" Type="int32" Value="90"/>
+													<Property Name="ParamName" Type="string" Value="FilterFreq"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{69F071BD-713A-4C20-BD3A-2ABC9AEB51DA}" PluginName="ParameterModulatorAssociation" CompanyID="0" PluginID="185">
+												<PropertyList>
+													<Property Name="ModDisplayName" Type="string" Value="Mod 3"/>
+													<Property Name="ModID" Type="int32" Value="53"/>
+													<Property Name="ModName" Type="string" Value="ReleaseMod3Depth"/>
+													<Property Name="ParamDisplayName" Type="string" Value="Release"/>
+													<Property Name="ParamID" Type="int32" Value="50"/>
+													<Property Name="ParamName" Type="string" Value="Release"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Grain" ID="{EE3055FE-5B16-48A1-B11B-4247B7EE7944}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music_state" ID="{6B0D4913-B5BA-4BB4-934E-18E921F12B87}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Concentration" ID="{822504C7-4BF6-4204-AFEE-6954DBDEA9A6}"/>
+								<CustomState Name="" ID="{B5F585C2-7CC3-4353-8D4D-0EC797EC5BD0}" ShortID="167993018"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+								<CustomState Name="" ID="{78D5AE4C-7429-4942-BD75-83C21EAB3D35}" ShortID="147069445">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{3F2E92FF-F4BD-48B2-B49B-B74F1ED99E79}" ShortID="1023466633">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<Custom>
+										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{F5DF7F45-8208-46C1-92FA-342019938013}" ShortID="1000149986">
+											<PropertyList>
+												<Property Name="LfoFrequency" Type="Real64" Value="0.02"/>
+											</PropertyList>
+										</ModulatorLfo>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular2" ID="{08881EA0-07E0-45A6-9C98-B36E0712F910}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.318444035038932</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular4" ID="{81E9592F-FD79-4928-8C09-11494D685631}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.256068895995551</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.592887583426029</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular1" ID="{12A549E2-EA95-4430-90AD-90708A3A7640}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.501586189516129</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>0.810530676446051</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Granular3" ID="{6F397E17-4F27-4443-8BC0-8588DC54A652}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0.711690107063404</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>1</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

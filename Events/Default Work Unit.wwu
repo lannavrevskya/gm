@@ -72,6 +72,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{971FA21D-090F-4839-8478-1AB5415B0600}" ShortID="605712191">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drone2" ID="{C3585C9A-2713-46B1-ACE9-BDB1F3A07E44}" WorkUnitID="{730C95E1-1C88-41E9-8351-162F58F9AE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

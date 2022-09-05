@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{73836DE9-EFB5-48AF-82C5-D0D9AF12B4F5}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{73836DE9-EFB5-48AF-82C5-D0D9AF12B4F5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{73836DE9-EFB5-48AF-82C5-D0D9AF12B4F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{5A0D161A-6C30-490D-B3F9-BD44C7E47DFD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="test_both" ID="{30C949F0-D8AA-410F-ABA2-2E3D176130D8}" WorkUnitID="{561B138B-0268-4E14-BB0D-0AAD77CF58AF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="OceanDayRainy" ID="{4B45CE0D-F4D4-4C3A-8305-0A8FC7DBAC2D}" WorkUnitID="{6CFC85E9-32FA-4708-8A45-80E5A318288F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ForestDayRainy" ID="{6E5A2349-DF87-4B20-8B95-437BF13BAF1E}" WorkUnitID="{6CFC85E9-32FA-4708-8A45-80E5A318288F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Proximity_FA_SSGrain" ID="{05F1ABB4-7338-42BC-A378-B1E2B12EE3CB}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Simulation_FA_SSGrain" ID="{71905071-0A79-42FE-9CD6-C631171DC3A4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Immersion_FA_SSGrain" ID="{3F41E622-166C-4532-BEF7-1DC9FF7EAB94}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Instrument_FA_SSGrain" ID="{6279AF44-C082-4608-981E-9A63D1EE7555}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Density_FA_SSGrain" ID="{63B3F29E-04F3-4887-BA1A-4D7694644B24}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM_FA_SSGrain" ID="{C092E65B-E5C4-4C55-8A68-576E98BBFF39}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Calm" ID="{BD2176DE-703D-4A19-8B79-15921B17E706}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
